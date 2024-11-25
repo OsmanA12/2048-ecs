@@ -1,4 +1,4 @@
-# Get the app running locally
+# Run This App Locally
 
 ```
 python -m http.server 3000
@@ -7,7 +7,7 @@ python -m http.server 3000
 ```
 http://localhost:3000/
 ```
-# **Marking Criteria for this EKS Project**
+# **Marking Criteria**
 
 | **Category**                   | **Points** | **Criteria**                                                                                                                                            |
 |--------------------------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
