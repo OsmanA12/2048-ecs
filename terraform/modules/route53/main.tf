@@ -8,6 +8,6 @@ resource "aws_route53_record" "www" {
   name    = var.a_record_name 
   type    = "CNAME"
   ttl     = 300
-  records = [aws_lb.test]
+  records = [var.alb_dns_name]
 }
 

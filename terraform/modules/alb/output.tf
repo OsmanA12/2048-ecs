@@ -15,3 +15,7 @@ output "alb_listener" {
   value = aws_lb_listener.front_end.arn
 }
 
+output "alb_dns_name" {
+  value = aws_lb.test.dns_name 
+}
+
